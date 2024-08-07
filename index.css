@@ -44,13 +44,34 @@ p{
     text-align: justify;
 }
 
-.imagen1{
+.imagen{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-img{
+.slid{
     width: 500px;
     height: 300px;
+}
+
+.form{
+    width: 220px;
+    height: 110px;
+}
+
+#slide5{
+    & p{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(0, 0, 176);
 }
